@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery - Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <header class="bg-green-600 text-white text-center py-12">
+    <h1 class="text-4xl font-bold mb-2">My Responsive Page</h1>
+    <p class="text-lg">Welcome to a page with a responsive image gallery</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8">
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">About This Page</h2>
+      <p class="text-gray-700">
+        This page demonstrates a responsive image gallery using Tailwind CSS. Resize the browser to see how the gallery adapts to smaller screens.
+      </p>
+    </section>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <img src="https://via.placeholder.com/400x300?text=Image+1" alt="Image 1" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+      <img src="https://via.placeholder.com/400x300?text=Image+2" alt="Image 2" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+      <img src="https://via.placeholder.com/400x300?text=Image+3" alt="Image 3" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+      <img src="https://via.placeholder.com/400x300?text=Image+4" alt="Image 4" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+      <img src="https://via.placeholder.com/400x300?text=Image+5" alt="Image 5" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+      <img src="https://via.placeholder.com/400x300?text=Image+6" alt="Image 6" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+    </section>
+  </main>
+
+</body>
+</html>
