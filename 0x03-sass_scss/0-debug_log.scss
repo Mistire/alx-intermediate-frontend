@@ -1,0 +1,6 @@
+$greeting: "Hello world";
+@debug $greeting;
+
+.hello::after {
+  content: $greeting;
+}
